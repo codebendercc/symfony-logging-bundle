@@ -1,0 +1,3 @@
+codebender_log_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: CodebenderLogBundle:Default:index }

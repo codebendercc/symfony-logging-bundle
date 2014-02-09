@@ -1,0 +1,12 @@
+parameters:
+#    codebender_log.example.class: Codebender\LogBundle\Example
+
+services:
+#    codebender_log.example:
+#        class: %codebender_log.example.class%
+#        arguments: [@service_id, "plain_value", %parameter%]
+
+    codebender_utilities.logcontroller:
+            class:        Codebender\LogBundle\Controller\LogController
+            arguments:
+                entityManager: "@doctrine.orm.entity_manager"
