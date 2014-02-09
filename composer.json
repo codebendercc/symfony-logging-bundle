@@ -1,0 +1,27 @@
+{
+    "name": "Codebender/LogBundle",
+    "type": "symfony-bundle",
+    "description": "Symfony CodebenderLogBundle",
+    "keywords": ["Logging user actions"],
+    "homepage": "https://github.com/codebendercc",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Thomas Alcorn",
+            "email": "alcorn@mit.edu"
+        },
+        {
+            "name": "Vasilis Georgitzikis",
+            "email": "tzikis@gmail.com"
+        },
+        {
+            "name": "Codebender Community",
+            "homepage": "https://github.com/orgs/codebendercc/members"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2",
+        "symfony/symfony": "~2.1",
+        "doctrine/orm": ">=2.2.3,<2.4-dev"
+    }
+}
