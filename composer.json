@@ -1,5 +1,5 @@
 {
-    "name": "Codebender/LogBundle",
+    "name": "codebender/log-bundle",
     "type": "symfony-bundle",
     "description": "Symfony CodebenderLogBundle",
     "keywords": ["Logging user actions"],
